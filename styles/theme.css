@@ -345,4 +345,13 @@
   --task-icon-onhold: #c4b28a;
   --task-icon-completed: #76946a;
   --task-icon-dropped: #c4746e;
+  --task-progress-view-completed-color: #76946a;
+}
+
+.task-progress-view.completed {
+  color: #76946a !important;
+}
+
+.task-progress-bar.completed {
+  border-color: #76946a !important;
 }
