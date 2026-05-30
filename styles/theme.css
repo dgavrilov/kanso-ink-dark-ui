@@ -348,6 +348,15 @@
   --task-progress-view-completed-color: #76946a;
 }
 
+body[class*="dark-ui"],
+.dark-mode {
+  --task-progress-view-completed-color: #76946a !important;
+}
+
+.editor-layout .internal-note-link {
+  --task-progress-view-foreground-color: var(--link-color);
+}
+
 .task-progress-view.completed {
   color: #76946a !important;
 }
