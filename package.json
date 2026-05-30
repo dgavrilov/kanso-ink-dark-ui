@@ -1,8 +1,9 @@
 {
-  "name": "default-light-ui",
-  "version": "3.0.0",
+  "name": "kanso-ink-dark-ui",
+  "version": "0.9.0",
   "theme": "ui",
-  "description": "Default Light UI Theme for Inkdrop",
+  "themeAppearance": "dark",
+  "description": "Kanso Ink Dark UI Theme for Inkdrop",
   "styleSheets": [
     "theme.css"
   ],
@@ -11,16 +12,13 @@
     "inkdrop",
     "markdown"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inkdropapp/defualt-light-ui.git"
-  },
-  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "repository": "https://github.com/dgavrilov/kanso-ink-dark-ui",
+  "author": "Dmitry Gavrilov <dmitry@gavrilov.me>",
   "license": "MIT",
   "devDependencies": {
-    "@inkdropapp/theme-dev-helpers": "^0.3.6"
+    "@inkdropapp/theme-dev-helpers": "^0.3.7"
   },
   "engines": {
-    "inkdrop": "^6.x"
+    "inkdrop": ">=5.9.0 <7"
   }
 }

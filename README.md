@@ -1,9 +1,34 @@
-# Default Light UI Theme for Inkdrop
+# Kansō Ink Dark UI theme for Inkdrop
 
-> [!NOTE]
-> Do not fork this repository to create your own theme. Please read the documentation linked below.
+## Screenshot
 
-The default light UI theme for Inkdrop.
+![screenshot](https://raw.githubusercontent.com/dgavrilov/kanso-ink-dark-ui/master/screenshot.png)
 
-Read [the documentation](https://developers.inkdrop.app/guides/create-a-theme) for detailed instructions.
+## Features
 
+- WCAG 2.1 AA compliant for comfortable code readability
+- Comfortable contrast levels for reduced eye strain
+
+## Installation
+
+```sh
+$ ipm install kanso-ink-dark-ui
+
+# Additional
+$ ipm install kanso-ink-syntax
+$ ipm install kanso-ink-preview
+```
+
+## Related
+
+* [dgavrilov/kanso-ink-syntax](https://github.com/dgavrilov/kanso-ink-syntax)
+* [dgavrilov/kanso-ink-preview](https://github.com/dgavrilov/kanso-ink-preview)
+
+## Credits
+
+- [webhooked](https://github.com/webhooked/kanso.nvim) for the original Kansō Neovim theme
+- [rebelot](https://github.com/rebelot/kanagawa.nvim) for the original Kanagawa Neovim theme
+
+## License
+
+This project is licensed under [MIT](LICENSE) license.

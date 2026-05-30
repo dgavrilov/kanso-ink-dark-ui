@@ -1,1 +1,352 @@
+:root {
+  /*-------------------
+      Core
+  --------------------*/
+  --page-background: #14171d;
+  --text-color: #c5c9c7;
 
+  /*-------------------
+      Brand Colors
+  --------------------*/
+  --primary-color: #658594;
+  --secondary-color: #22262D;
+  --light-primary-color: #8BA4B0;
+  --light-secondary-color: #393B42;
+  --primary-color-hover: #7FB4CA;
+  --primary-color-focus: #7FB4CA;
+  --primary-color-down: #8BA4B0;
+  --primary-color-active: #658594;
+  --secondary-color-hover: #2D3038;
+  --secondary-color-focus: #2D3038;
+  --secondary-color-down: #393B42;
+  --secondary-color-active: #22262D;
+
+  /*-------------------
+      Form Input
+  --------------------*/
+  --input-background: #22262D;
+  --input-color: #c5c9c7;
+  --input-placeholder-color: rgba(197, 201, 199, 0.25);
+  --input-placeholder-focus-color: rgba(197, 201, 199, 0.40);
+  --input-error-placeholder-color: #E46876;
+  --input-error-placeholder-focus-color: rgba(228, 104, 118, 0.80);
+
+  /*-------------------
+      Focused Input
+  --------------------*/
+  --focused-form-border-color: rgba(139, 164, 176, 0.60);
+  --focused-form-muted-border-color: rgba(139, 164, 176, 0.40);
+  --focused-outline-color: rgba(139, 164, 176, 0.30);
+
+  /*-------------------
+      Links
+  --------------------*/
+  --link-color: #6A9589;
+  --link-hover-color: #8BA4B0;
+
+  /*-------------------
+      Highlighted Text
+  --------------------*/
+  --highlight-background: #2D4F67;
+  --highlight-color: #c5c9c7;
+  --input-highlight-background: rgba(57, 59, 66, 0.80);
+  --input-highlight-color: #c5c9c7;
+
+  /*-------------------
+      Loader
+  --------------------*/
+  --loader-fill-color: rgba(255, 255, 255, 0.05);
+  --loader-line-color: #9E9B93;
+  --inverted-loader-fill-color: rgba(0, 0, 0, 0.10);
+  --inverted-loader-line-color: #22262D;
+
+  /*-------------------
+      Site Colors
+  --------------------*/
+  --red: #C4746E;
+  --orange: #B6927B;
+  --yellow: #C4B28A;
+  --olive: #8A9A7B;
+  --green: #76946A;
+  --teal: #6A9589;
+  --blue: #8BA4B0;
+  --violet: #A292A3;
+  --purple: #938AA9;
+  --pink: #E46876;
+  --brown: #B6927B;
+  --grey: #9E9B93;
+  --black: #22262D;
+
+  /*---  Light Colors  ---*/
+  --light-red: #E46876;
+  --light-orange: #DCA561;
+  --light-yellow: #E6C384;
+  --light-olive: #87A987;
+  --light-green: #87A987;
+  --light-teal: #7AA89F;
+  --light-blue: #7FB4CA;
+  --light-violet: #938AA9;
+  --light-purple: #A292A3;
+  --light-pink: #E46876;
+  --light-brown: #DCA561;
+  --light-grey: #9E9B93;
+  --light-black: #393B42;
+
+  /*---   Neutrals  ---*/
+  --full-black: #000000;
+  --off-white: #393B42;
+  --dark-white: #2D3038;
+  --mid-white: #22262D;
+  --white: #14171d;
+
+  /*--- Colored Backgrounds ---*/
+  --red-background: rgba(196, 116, 110, 0.12);
+  --orange-background: rgba(182, 146, 123, 0.12);
+  --yellow-background: rgba(196, 178, 138, 0.12);
+  --olive-background: rgba(138, 154, 123, 0.12);
+  --green-background: rgba(118, 148, 106, 0.12);
+  --teal-background: rgba(106, 149, 137, 0.12);
+  --blue-background: rgba(139, 164, 176, 0.12);
+  --violet-background: rgba(162, 146, 163, 0.12);
+  --purple-background: rgba(147, 138, 169, 0.12);
+  --pink-background: rgba(228, 104, 118, 0.12);
+  --brown-background: rgba(182, 146, 123, 0.12);
+
+  /*--- Colored Headers ---*/
+  --red-header-color: #E46876;
+  --orange-header-color: #DCA561;
+  --yellow-header-color: #E6C384;
+  --olive-header-color: #87A987;
+  --green-header-color: #87A987;
+  --teal-header-color: #7AA89F;
+  --blue-header-color: #7FB4CA;
+  --violet-header-color: #938AA9;
+  --purple-header-color: #A292A3;
+  --pink-header-color: #E46876;
+  --brown-header-color: #DCA561;
+
+  /*--- Colored Text ---*/
+  --red-text-color: #C4746E;
+  --orange-text-color: #B6927B;
+  --yellow-text-color: #C4B28A;
+  --olive-text-color: #8A9A7B;
+  --green-text-color: #76946A;
+  --teal-text-color: #6A9589;
+  --blue-text-color: #8BA4B0;
+  --violet-text-color: #A292A3;
+  --purple-text-color: #938AA9;
+  --pink-text-color: #E46876;
+  --brown-text-color: #B6927B;
+
+  /*--- Colored Borders ---*/
+  --red-border-color: rgba(196, 116, 110, 0.50);
+  --orange-border-color: rgba(182, 146, 123, 0.50);
+  --yellow-border-color: rgba(196, 178, 138, 0.50);
+  --olive-border-color: rgba(138, 154, 123, 0.50);
+  --green-border-color: rgba(118, 148, 106, 0.50);
+  --teal-border-color: rgba(106, 149, 137, 0.50);
+  --blue-border-color: rgba(139, 164, 176, 0.50);
+  --violet-border-color: rgba(162, 146, 163, 0.50);
+  --purple-border-color: rgba(147, 138, 169, 0.50);
+  --pink-border-color: rgba(228, 104, 118, 0.50);
+  --brown-border-color: rgba(182, 146, 123, 0.50);
+
+  /*-------------------
+      Alpha Overlays
+  --------------------*/
+  --subtle-transparent-black: rgba(255, 255, 255, 0.02);
+  --transparent-black: rgba(255, 255, 255, 0.04);
+  --strong-transparent-black: rgba(255, 255, 255, 0.08);
+  --very-strong-transparent-black: rgba(255, 255, 255, 0.12);
+  --subtle-transparent-white: rgba(0, 0, 0, 0.02);
+  --transparent-white: rgba(0, 0, 0, 0.04);
+  --strong-transparent-white: rgba(0, 0, 0, 0.10);
+
+  /*-------------------
+      Accents / Shadows
+  --------------------*/
+  --subtle-gradient: linear-gradient(transparent, rgba(0, 0, 0, 0.15));
+  --subtle-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 0.50);
+  --floating-shadow:
+    0px 2px 4px 0px rgba(0, 0, 0, 0.40),
+    0px 2px 10px 0px rgba(0, 0, 0, 0.40);
+  --raised-shadow:
+    0 1.5px 3px -2px rgba(0, 0, 0, 0.60),
+    0 4px 6px rgba(0, 0, 0, 0.30),
+    0 8px 12px -1px rgba(0, 0, 0, 0.20);
+
+  /*-------------------
+      Emotive Colors
+  --------------------*/
+  --positive-color: #76946A;
+  --positive-background-color: rgba(118, 148, 106, 0.12);
+  --positive-border-color: rgba(118, 148, 106, 0.45);
+  --positive-header-color: rgba(135, 169, 135, 0.90);
+  --positive-text-color: rgba(135, 169, 135, 0.90);
+
+  --negative-color: #C4746E;
+  --negative-background-color: rgba(196, 116, 110, 0.12);
+  --negative-border-color: rgba(196, 116, 110, 0.45);
+  --negative-header-color: rgba(228, 104, 118, 0.90);
+  --negative-text-color: rgba(228, 104, 118, 0.90);
+
+  --info-color: #8BA4B0;
+  --info-background-color: rgba(139, 164, 176, 0.12);
+  --info-border-color: rgba(139, 164, 176, 0.45);
+  --info-header-color: rgba(127, 180, 202, 0.90);
+  --info-text-color: rgba(127, 180, 202, 0.90);
+
+  --warning-color: #C4B28A;
+  --warning-background-color: rgba(196, 178, 138, 0.12);
+  --warning-border-color: rgba(196, 178, 138, 0.45);
+  --warning-header-color: rgba(230, 195, 132, 0.90);
+  --warning-text-color: rgba(230, 195, 132, 0.90);
+
+  /* Dupes */
+  --success-color: var(--positive-color);
+  --success-background-color: var(--positive-background-color);
+  --success-border-color: var(--positive-border-color);
+  --success-header-color: var(--positive-header-color);
+  --success-text-color: var(--positive-text-color);
+  --error-color: var(--negative-color);
+  --error-background-color: var(--negative-background-color);
+  --error-border-color: var(--negative-border-color);
+  --error-header-color: var(--negative-header-color);
+  --error-text-color: var(--negative-text-color);
+
+  /*-------------------
+      Neutral Text
+  --------------------*/
+  --dark-text-color: rgba(197, 201, 199, 0.85);
+  --muted-text-color: rgba(197, 201, 199, 0.60);
+  --light-text-color: rgba(197, 201, 199, 0.40);
+  --unselected-text-color: rgba(197, 201, 199, 0.40);
+  --hovered-text-color: rgba(197, 201, 199, 0.80);
+  --pressed-text-color: rgba(197, 201, 199, 0.90);
+  --selected-text-color: rgba(197, 201, 199, 0.95);
+  --disabled-text-color: rgba(197, 201, 199, 0.30);
+  --inverted-text-color: rgba(20, 23, 29, 0.90);
+  --inverted-muted-text-color: rgba(20, 23, 29, 0.80);
+  --inverted-light-text-color: rgba(20, 23, 29, 0.70);
+  --inverted-unselected-text-color: rgba(20, 23, 29, 0.50);
+  --inverted-hovered-text-color: rgba(20, 23, 29, 1.00);
+  --inverted-pressed-text-color: rgba(20, 23, 29, 1.00);
+  --inverted-selected-text-color: rgba(20, 23, 29, 1.00);
+  --inverted-disabled-text-color: rgba(20, 23, 29, 0.20);
+
+  /*-------------------
+      Borders
+  --------------------*/
+  --border-color: rgba(197, 201, 199, 0.10);
+  --strong-border-color: rgba(197, 201, 199, 0.18);
+  --internal-border-color: rgba(197, 201, 199, 0.08);
+  --selected-border-color: rgba(197, 201, 199, 0.30);
+  --strong-selected-border-color: rgba(197, 201, 199, 0.45);
+  --disabled-border-color: rgba(197, 201, 199, 0.40);
+  --solid-internal-border-color: #22262D;
+  --solid-border-color: #393B42;
+  --solid-selected-border-color: #4F5157;
+  --white-border-color: rgba(197, 201, 199, 0.10);
+  --selected-white-border-color: rgba(197, 201, 199, 0.80);
+  --solid-white-border-color: #4F5157;
+  --selected-solid-white-border-color: #5C6066;
+
+  /*-------------------
+      Scrollbar
+  --------------------*/
+  --scrollbar-track-background: rgba(197, 201, 199, 0.02);
+  --scrollbar-thumb-background: rgba(197, 201, 199, 0.15);
+
+  /*-------------------
+      Modal
+  --------------------*/
+  --modal-box-header-background: #22262D;
+  --modal-box-header-color: #c5c9c7;
+  --modal-box-header-border: 1px solid rgba(197, 201, 199, 0.08);
+  --modal-box-content-background: #22262D;
+  --modal-box-actions-background: #1b1e24;
+  --modal-box-actions-border: 1px solid rgba(197, 201, 199, 0.08);
+
+  /*-------------------
+      Side Bar
+  --------------------*/
+  --sidebar-color-scheme: dark;
+  --sidebar-background: #22262D;
+  --sidebar-border-right: 1px solid rgba(197, 201, 199, 0.08);
+  --sidebar-menu-item-inactive-background: rgba(139, 164, 176, 0.12);
+  --sidebar-menu-item-active-background: rgba(139, 164, 176, 0.20);
+  --sidebar-menu-section-color: rgba(197, 201, 199, 0.40);
+  --sidebar-menu-section-separator-color: rgba(197, 201, 199, 0.08);
+  --sidebar-menu-item-color: rgba(197, 201, 199, 0.60);
+  --sidebar-menu-active-item-color: #c5c9c7;
+  --sidebar-menu-action-color: rgba(197, 201, 199, 0.30);
+  --sidebar-menu-action-hover-color: rgba(197, 201, 199, 0.60);
+  --sidebar-sync-status-view-background: rgba(20, 23, 29, 0.50);
+  --sidebar-sync-status-view-border-top: 1px solid rgba(197, 201, 199, 0.08);
+  --sidebar-sync-status-view-text-color: rgba(197, 201, 199, 0.60);
+  --sidebar-sync-status-view-detail-color: rgba(197, 201, 199, 0.40);
+  --sidebar-scrollbar-track-background: rgba(197, 201, 199, 0.02);
+  --sidebar-scrollbar-thumb-background: rgba(197, 201, 199, 0.15);
+  --sidebar-notification-view-background: #C4B28A;
+  --sidebar-notification-view-color: rgba(20, 23, 29, 0.90);
+
+  /*-------------------
+      Note List Bar
+  --------------------*/
+  --note-list-bar-background: #14171d;
+  --note-list-bar-border-right: 1px solid rgba(197, 201, 199, 0.08);
+  --note-list-bar-pinned-section-header-background: #22262D;
+  --note-list-bar-pinned-section-header-border-bottom: none;
+  --note-list-bar-pinned-section-footer-border-bottom: 4px solid #393B42;
+  --note-list-view-item-color: rgba(197, 201, 199, 0.60);
+  --note-list-view-item-separator-border: 1px solid rgba(197, 201, 199, 0.08);
+  --note-list-view-item-date-color: #658594;
+  --note-list-view-item-tag-color: #8BA4B0;
+  --note-list-view-item-selected-background: rgba(139, 164, 176, 0.12);
+  --note-list-view-item-active-background: rgba(139, 164, 176, 0.20);
+  --note-search-bar-background: transparent;
+  --note-search-bar-border-bottom: 1px solid rgba(197, 201, 199, 0.08);
+  --note-search-bar-input-border: 1px solid transparent;
+  --note-search-bar-input-background: #22262D;
+
+  /*-------------------
+      Editor
+  --------------------*/
+  --editor-background: #14171d;
+  --editor-header-title-input-background: transparent;
+  --editor-floating-actions-background: rgba(34, 38, 45, 0.80);
+  --editor-drawer-background: rgba(34, 38, 45, 0.90);
+  --editor-drawer-border-left: 1px solid rgba(197, 201, 199, 0.08);
+  --note-tags-bar-input-background: transparent;
+
+  /*-------------------
+      Header Note Menu
+  --------------------*/
+  --header-note-menu-background: transparent;
+  --header-note-menu-color: rgba(197, 201, 199, 0.40);
+  --header-note-menu-action-item-active-background: rgba(139, 164, 176, 0.12);
+  --header-note-menu-action-item-active-border: 1px solid rgba(139, 164, 176, 0.45);
+  --header-note-menu-action-item-separator-border: 1px solid rgba(197, 201, 199, 0.08);
+  --header-note-menu-encrypt-button-color: #C4B28A;
+  --header-note-menu-encrypt-button-background: rgba(196, 178, 138, 0.12);
+
+  /*-------------------
+      Notifications
+  --------------------*/
+  --notification-item-background: rgba(34, 38, 45, 0.90);
+
+  /*-------------------
+      Preferences
+  --------------------*/
+  --preferences-sidebar-background: #22262D;
+  --preferences-sidebar-item-active-background: rgba(101, 133, 148, 0.20);
+  --preferences-view-background: #14171d;
+
+  /*-------------------
+      Task Icons
+  --------------------*/
+  --task-icon-active: #8BA4B0;
+  --task-icon-onhold: #C4B28A;
+  --task-icon-completed: #76946A;
+  --task-icon-dropped: #C4746E;
+}
