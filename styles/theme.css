@@ -34,9 +34,9 @@
   /*-------------------
       Focused Input
   --------------------*/
-  --focused-form-border-color: rgba(139, 164, 176, 0.6);
-  --focused-form-muted-border-color: rgba(139, 164, 176, 0.4);
-  --focused-outline-color: rgba(139, 164, 176, 0.3);
+  --focused-form-border-color: #393b42;
+  --focused-form-muted-border-color: rgba(57, 59, 66, 0.6);
+  --focused-outline-color: rgba(57, 59, 66, 0.4);
 
   /*-------------------
       Links
@@ -192,11 +192,11 @@
   --info-header-color: rgba(127, 180, 202, 0.9);
   --info-text-color: rgba(127, 180, 202, 0.9);
 
-  --warning-color: #c4b28a;
-  --warning-background-color: rgba(196, 178, 138, 0.12);
-  --warning-border-color: rgba(196, 178, 138, 0.45);
-  --warning-header-color: rgba(230, 195, 132, 0.9);
-  --warning-text-color: rgba(230, 195, 132, 0.9);
+  --warning-color: #ff9e3b;
+  --warning-background-color: rgba(255, 158, 59, 0.12);
+  --warning-border-color: rgba(255, 158, 59, 0.45);
+  --warning-header-color: rgba(255, 158, 59, 0.9);
+  --warning-text-color: rgba(255, 158, 59, 0.9);
 
   /* Dupes */
   --success-color: var(--positive-color);
@@ -269,10 +269,10 @@
       Side Bar
   --------------------*/
   --sidebar-color-scheme: dark;
-  --sidebar-background: #22262d;
+  --sidebar-background: #14171d;
   --sidebar-border-right: 1px solid rgba(197, 201, 199, 0.08);
-  --sidebar-menu-item-inactive-background: rgba(139, 164, 176, 0.12);
-  --sidebar-menu-item-active-background: rgba(139, 164, 176, 0.2);
+  --sidebar-menu-item-inactive-background: #22262d;
+  --sidebar-menu-item-active-background: #22262d;
   --sidebar-menu-section-color: rgba(197, 201, 199, 0.4);
   --sidebar-menu-section-separator-color: rgba(197, 201, 199, 0.08);
   --sidebar-menu-item-color: rgba(197, 201, 199, 0.6);
@@ -301,8 +301,8 @@
   --note-list-view-item-separator-border: 1px solid rgba(197, 201, 199, 0.08);
   --note-list-view-item-date-color: #658594;
   --note-list-view-item-tag-color: #8ba4b0;
-  --note-list-view-item-selected-background: rgba(139, 164, 176, 0.12);
-  --note-list-view-item-active-background: rgba(139, 164, 176, 0.2);
+  --note-list-view-item-selected-background: #22262d;
+  --note-list-view-item-active-background: #22262d;
   --note-search-bar-background: transparent;
   --note-search-bar-border-bottom: 1px solid rgba(197, 201, 199, 0.08);
   --note-search-bar-input-border: 1px solid transparent;
@@ -323,8 +323,8 @@
   --------------------*/
   --header-note-menu-background: transparent;
   --header-note-menu-color: rgba(197, 201, 199, 0.4);
-  --header-note-menu-action-item-active-background: rgba(139, 164, 176, 0.12);
-  --header-note-menu-action-item-active-border: 1px solid rgba(139, 164, 176, 0.45);
+  --header-note-menu-action-item-active-background: #22262d;
+  --header-note-menu-action-item-active-border: 1px solid #393b42;
   --header-note-menu-action-item-separator-border: 1px solid rgba(197, 201, 199, 0.08);
   --header-note-menu-encrypt-button-color: #c4b28a;
   --header-note-menu-encrypt-button-background: rgba(196, 178, 138, 0.12);
@@ -338,7 +338,7 @@
       Preferences
   --------------------*/
   --preferences-sidebar-background: #22262d;
-  --preferences-sidebar-item-active-background: rgba(101, 133, 148, 0.2);
+  --preferences-sidebar-item-active-background: #393b42;
   --preferences-view-background: #14171d;
 
   /*-------------------
@@ -366,6 +366,16 @@ body[class*="dark-ui"],
 
 .task-progress-bar.completed {
   border-color: #76946a !important;
+}
+
+/*-------------------
+    Update Badges
+--------------------*/
+
+.plugin-list-item-view .header .additional-info .latest-version.ui.label,
+.preferences-sidebar.ui.secondary.vertical.pointing.menu .badge {
+  color: var(--sidebar-notification-view-color) !important;
+  background-color: var(--sidebar-notification-view-background) !important;
 }
 
 /*-------------------
