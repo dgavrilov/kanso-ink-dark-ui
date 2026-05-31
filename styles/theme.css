@@ -250,8 +250,10 @@
   /*-------------------
       Scrollbar
   --------------------*/
+  --scrollbar-width: 8px;
   --scrollbar-track-background: rgba(197, 201, 199, 0.02);
-  --scrollbar-thumb-background: rgba(197, 201, 199, 0.15);
+  --scrollbar-thumb-background: rgba(79, 81, 87, 0.55);
+  --scrollbar-thumb-hover-background: rgba(79, 81, 87, 0.8);
 
   /*-------------------
       Modal
@@ -282,7 +284,8 @@
   --sidebar-sync-status-view-text-color: rgba(197, 201, 199, 0.6);
   --sidebar-sync-status-view-detail-color: rgba(197, 201, 199, 0.4);
   --sidebar-scrollbar-track-background: rgba(197, 201, 199, 0.02);
-  --sidebar-scrollbar-thumb-background: rgba(197, 201, 199, 0.15);
+  --sidebar-scrollbar-thumb-background: rgba(79, 81, 87, 0.55);
+  --sidebar-scrollbar-thumb-hover-background: rgba(79, 81, 87, 0.8);
   --sidebar-notification-view-background: #c4b28a;
   --sidebar-notification-view-color: rgba(20, 23, 29, 0.9);
 
@@ -363,4 +366,35 @@ body[class*="dark-ui"],
 
 .task-progress-bar.completed {
   border-color: #76946a !important;
+}
+
+/*-------------------
+    Scrollbars
+--------------------*/
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb-background) var(--scrollbar-track-background);
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-background);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-background);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--scrollbar-track-background);
 }
