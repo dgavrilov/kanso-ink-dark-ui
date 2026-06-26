@@ -1,0 +1,58 @@
+:root {
+  /* Backgrounds */
+  --kanso-bg0: 220 18% 9%; /* #14171d  page / deepest */
+  --kanso-bg1: 240 12% 14%; /* #1f1f26  panels, segments */
+  --kanso-bg2: 217 14% 16%; /* #22262d  inputs, cards, modals */
+  --kanso-bg3: 224 11% 20%; /* #2d3038  hover overlays */
+  --kanso-bg4: 228 9% 24%; /* #393b44  borders, subtle dividers */
+  --kanso-bg5: 225 7% 32%; /* #4b4e57  inactive elements */
+
+  /* Foreground */
+  --kanso-fg: 155 4% 78%; /* #c5c9c7  primary text */
+  --kanso-fg2: 44 5% 60%; /* #9e9b93  muted / secondary text */
+
+  /* Blues — primary accent family */
+  --kanso-blue: 198 40% 64%; /* #7fb4ca  link hover, highlights */
+  --kanso-blue2: 201 18% 48%; /* #658594  primary action, links */
+  --kanso-blue3: 196 17% 62%; /* #8ba4b0  secondary accent */
+
+  /* Semantic accents */
+  --kanso-green: 103 17% 50%; /* #76946a  success, completed */
+  --kanso-red: 4 41% 60%; /* #c4746e  error, dropped */
+  --kanso-yellow: 41 33% 66%; /* #c4b28a  warning, on-hold */
+  --kanso-teal: 163 17% 50%; /* #6a9589  hint, special */
+  --kanso-violet: 297 7% 61%; /* #a292a3  keyword */
+  --kanso-purple: 257 15% 60%; /* #938aa9  type */
+  --kanso-pink: 353 70% 65%; /* #e46876  error text, pink label */
+  --kanso-orange: 22 26% 60%; /* #b6927b  constant, brown */
+  --kanso-olive: 91 13% 54%; /* #8a9a7b  string, olive */
+
+  /* Light variants — for label / tag tints */
+  --kanso-light-green: 120 17% 60%; /* #87a987 */
+  --kanso-light-orange: 33 64% 62%; /* #dca561 */
+  --kanso-light-yellow: 39 66% 71%; /* #e6c384 */
+  --kanso-light-teal: 168 21% 57%; /* #7aa89f */
+
+  /* Special */
+  --kanso-selection: 205 39% 29%; /* #2d4f67  search / selection highlight */
+  --kanso-visual: 215 36% 21%; /* #223249  visual-mode bg */
+
+  /* Inkdrop v6 HSL token remap */
+  --hsl-neutral-50: var(--kanso-fg); /* #c5c9c7 */
+  --hsl-neutral-100: 120 2% 65%;
+  --hsl-neutral-200: 213 3% 58%;
+  --hsl-neutral-300: 216 5% 48%;
+  --hsl-neutral-400: 210 5% 38%;
+  --hsl-neutral-500: var(--kanso-bg5); /* #4b4e57 */
+  --hsl-neutral-600: var(--kanso-bg4); /* #393b44 */
+  --hsl-neutral-700: var(--kanso-bg4); /* #393b44 */
+  --hsl-neutral-800: var(--kanso-bg2); /* #22262d */
+  --hsl-neutral-900: var(--kanso-bg1); /* #1f1f26 */
+  --hsl-neutral-950: var(--kanso-bg0); /* #14171d */
+
+  --hsl-blue-300: var(--kanso-blue); /* #7fb4ca */
+  --hsl-blue-400: var(--kanso-blue); /* #7fb4ca */
+  --hsl-blue-500: var(--kanso-blue2); /* #658594 */
+  --hsl-blue-600: var(--kanso-blue3); /* #8ba4b0 */
+  --hsl-sky-300: var(--kanso-blue); /* #7fb4ca */
+}
