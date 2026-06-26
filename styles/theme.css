@@ -619,24 +619,6 @@
     0 8px 12px -1px rgba(0, 0, 0, 0.04);
 }
 
-/* Acrylic Window */
-
-:root:has(body.acrylic-window) {
-  --page-background: transparent;
-  --sidebar-background: transparent;
-  --note-list-bar-background: transparent;
-  --editor-background: transparent;
-  --modal-box-content-background: hsl(var(--kanso-bg2) / 85%);
-  --modal-box-header-background: hsl(var(--kanso-bg2) / 85%);
-}
-
-:root:has(body.acrylic-window.platform-win32) {
-  --page-background: hsl(var(--kanso-bg0) / 40%);
-  --sidebar-background: hsl(var(--kanso-bg0) / 40%);
-  --note-list-bar-background: hsl(var(--kanso-bg0) / 40%);
-  --editor-background: hsl(var(--kanso-bg0) / 40%);
-}
-
 /* Inkdrop v5 Compat */
 
 body[class*="dark-ui"],
