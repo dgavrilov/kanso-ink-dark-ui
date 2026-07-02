@@ -1,6 +1,6 @@
 {
   "name": "kanso-ink-dark-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "theme": "ui",
   "themeAppearance": "dark",
   "description": "Kanso Ink Dark UI theme for Inkdrop",
@@ -22,6 +22,6 @@
     "@inkdropapp/theme-dev-helpers": "^0.5.0"
   },
   "engines": {
-    "inkdrop": ">=5.9.0 <7"
+    "inkdrop": "^5.9.0"
   }
 }
